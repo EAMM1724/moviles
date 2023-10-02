@@ -1,0 +1,43 @@
+fun main() {
+ 
+    
+    //imprime todo hasta 5
+    for (i in 1..5)
+    print(i)
+    println()
+    
+    
+    //imprime todo ecepto 5
+    for( a in 1 until 5)
+    print(a)
+    println()
+    
+    
+    val  nombres = listOf(
+    "kirby",
+        "mario",
+        "luigi",
+        "samus"
+    
+    )
+    
+    for (nombre in nombres){
+        println(nombre)
+        
+    }
+    
+
+    for(nombre in nombres){
+        println(nombre)
+        
+        if (nombre == "link"){
+            
+            println("prersonaje encontrado")
+        }
+        
+        
+    }
+    
+    
+    
+

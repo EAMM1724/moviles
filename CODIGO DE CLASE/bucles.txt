@@ -1,0 +1,49 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main(){
+ 
+     val  nombres = listOf(
+       "Pedro luis",
+          "juan manuel",
+          "juan luis",
+          "Maria ines",
+          "Romeo",
+          "Ernesto",
+          "Juan pedro",
+          "Ariadna", 
+          "Mireya Maria",
+          "Ana Sofia",
+          "Jose Juan",
+         "link"
+          )
+           for(nombre in nombres){
+        println(nombre)
+        
+        if (nombre == "link"){
+            
+            println("prersonaje encontrado")
+        }else {
+            println("personaje no encontrado")
+        }
+        
+        
+    }
+
+    
+}
+
+
+
+
+
+
+ 
+
+    
+   
+        
+        
+    
+    
