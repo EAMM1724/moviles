@@ -1,8 +1,8 @@
-class P9_Vehiculo_2 {
+class Vehiculo_2 {
     init {
         println("Vehiculo creado")
     }
     companion object Factory{
-        fun create(): P9_Vehiculo_2 = P9_Vehiculo_2()
+        fun create(): Vehiculo_2 = Vehiculo_2()
     }
 }
