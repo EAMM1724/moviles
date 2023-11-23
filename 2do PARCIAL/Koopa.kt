@@ -8,9 +8,6 @@ override fun collision(collider: String){
     println("Usando la colision de la clase enemy")
 }
 
-
-
-/*
 override fun collision(collider: String){
     when (collider){
         "weapon" -> {
@@ -21,9 +18,3 @@ override fun collision(collider: String){
         "Enemy" -> changeDirection()
     }
 }
- */
- */
-+/
-
-
-//polimorfismo:
